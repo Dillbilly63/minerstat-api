@@ -12,7 +12,7 @@ PHP, C#, C++, NodeJS
 - Reboot, Restart
 - Remote Commands
 
-# JSON
+# Public JSON
 
 https://minerstat.com/api/getstat/<b>ACCESSKEY</b>
 
