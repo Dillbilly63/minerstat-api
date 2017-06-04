@@ -45,6 +45,7 @@ Response:
     "rejected_dual_share":"0",
     "pool":" exp-eu.dwarfpool.com:8018",
     "pool_dual":"sia-eu1.nanopool.org:7777,
+    "gpu_count":"6",
     "gpu1":"58",
     "gpu2":"67",
     "gpu3":"61",
