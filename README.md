@@ -72,6 +72,6 @@ Response:
 
 Current API Rules: 2 request / 1 IP / 1 sec
 
-Ideas & Request & Bug Report: api@minerstat.com
+Idea & Request & Bug Report: api@minerstat.com
 
 © minerstat.com
