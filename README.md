@@ -7,7 +7,7 @@ PHP, C#, C++, NodeJS
 - Revenue
 - Online Status
 
-<b>Private API</b>
+<b>Private API (Soon)</b>
 
 - Reboot, Restart
 - Remote Commands
@@ -19,14 +19,54 @@ https://minerstat.com/api/getstat/<b>ACCESSKEY</b>
 Response:
 
 <pre>
-[{"total_online_worker":"4"},{"total_worker":"4"},{"total_gpu":"23"},
-{"worker":"B1_1060","status":"online","client":"ewbf-zec","crypto":"ZEC","crypto2":"","hashrate":"1.676 KH","hashrate2":" ","shares":"1|1","shares2":"","gpu":"56 |68 |72 |73 |73 |65 |","fan":"87 |87 |87 |87 |87 |87 |","revenue24":"20.99"},
-{"worker":"B2_1060","status":"online","client":"ewbf-zec","crypto":"ZEC","crypto2":"","hashrate":"1.688 KH","hashrate2":" ","shares":"1|1","shares2":"","gpu":"59 |67 |59 |60 |64 |62 |","fan":"8|8|8|8|8|8|","revenue24":"21.15"},
-{"worker":"RIG1","status":"online","client":"claymore-eth","crypto":"ETH","crypto2":"PASC","hashrate":"165.057 MH","hashrate2":"1320.473 MH","shares":"847 \/ 2 ","shares2":"786 \/ 2 ","gpu":"59|63|59|61|58|62|","fan":"29|72|71|72|0|71|","revenue24":"33.7544"},
-{"worker":"RIG2_1060","status":"online","client":"ewbf-zec","crypto":"ZEC","crypto2":"","hashrate":"1.924 KH","hashrate2":"1320.473 MH","shares":"1|1","shares2":"","gpu":"69 |64 |73 |66 |72 |74 |76 \u00b0C\/","fan":"9|9|9|9|9|9|9 \/","revenue24":"24.1"}]
+[  
+  {  
+    "total_online_worker":"4"
+  },
+  {  
+    "total_worker":"4"
+  },
+  {  
+    "total_gpu":"25"
+  },
+  {  
+    "worker":"RIG1",
+    "status":"online",
+    "client":"claymore-eth",
+    "crypto":"EXP",
+    "crypto_dual":"SC",
+    "hashrate":"164.315",
+    "hashrate_unit":"MH",
+    "hashrate_dual":"1314.536",
+    "hashrate_dual_unit":"MH",
+    "accepted_share":"4559",
+    "accepted_dual_share":"517",
+    "rejected_share":"1",
+    "rejected_dual_share":"0",
+    "gpu1":"58",
+    "gpu2":"67",
+    "gpu3":"61",
+    "gpu4":"65",
+    "gpu5":"59",
+    "gpu6":"66",
+    "gpu7":"",
+    "gpu8":"",
+    "fan1":"72",
+    "fan2":"72",
+    "fan3":"72",
+    "fan4":"71",
+    "fan5":"70",
+    "fan6":"71",
+    "fan7":"",
+    "fan8":"",
+    "revenue_day":"38.8251",
+    "revenue_week":271.7757,
+    "revenue_month":1164.753
+  },
+ ...........
+]
 </pre>
 
+Current API Rules: 2 request / 1 IP / 1 sec
 
-The API will be impoved in the days.. with examples..
-
-minerstat.com
+© minerstat.com
