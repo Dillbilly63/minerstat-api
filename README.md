@@ -62,9 +62,12 @@ Response:
     "fan6":"71",
     "fan7":"",
     "fan8":"",
-    "revenue_day":"38.8251",
-    "revenue_week":271.7757,
-    "revenue_month":1164.753
+    "revenue_day":"31.58",
+    "revenue_week":221.06,
+    "revenue_month":947.4,
+    "revenue_btc_day":"0.012746",
+    "revenue_btc_week":"0.089224",
+    "revenue_btc_month":"0.382388"
   },
  ...........
 ]
