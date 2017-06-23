@@ -33,6 +33,8 @@ Response:
     "worker":"RIG1",
     "status":"online",
     "client":"claymore-eth",
+    "uptime":"1 days 1 hours 41 minutes 3 seconds",
+    "uptime_sec":"92463",
     "crypto":"EXP",
     "crypto_dual":"SC",
     "hashrate":"164.315",
