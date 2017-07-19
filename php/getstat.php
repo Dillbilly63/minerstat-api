@@ -1,6 +1,8 @@
 
 <?php
 
+// OUTDATED we reccomend to use the new v2 API !
+
 // API EXAMPLE PHP v1.0
 // CONTACT: api@minerstat.com
 
@@ -17,7 +19,7 @@ return $data;
 // CHANGE IT TO YOUR WEBSITE LOGIN
 $token = "XY1234";
 
-$json = load("https://minerstat.com/api/getstat/$token");
+$json = load("https://minerstat.com/api/v1/getstat/$token");
 $data = json_decode($json, true);
 
 // FIX VARIBLES
