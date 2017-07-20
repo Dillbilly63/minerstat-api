@@ -1,5 +1,4 @@
-# minerstat.com API
-PHP, C#, C++, NodeJS
+# minerstat.com JSON API
 
 <b>Public API</b>
 
@@ -14,64 +13,64 @@ PHP, C#, C++, NodeJS
 
 # Public JSON
 
-https://minerstat.com/api/getstat/<b>ACCESSKEY</b>
+https://minerstat.com/api/v2/getstat/<b>ACCESSKEY</b>
 
 Response:
 
 <pre>
-[  
-  {  
-    "total_online_worker":"4"
-  },
-  {  
-    "total_worker":"4"
-  },
-  {  
-    "total_gpu":"25"
-  },
-  {  
-    "worker":"RIG1",
+{  
+  "B1_1060":{  
+    "worker":"B1_1060",
     "status":"online",
     "client":"claymore-eth",
-    "uptime":"1 days 1 hours 41 minutes 3 seconds",
-    "uptime_sec":"92463",
-    "crypto":"EXP",
+    "uptime":"1 days 17 hours 14 minutes ",
+    "uptime_sec":"148440",
+    "crypto":"ETH",
     "crypto_dual":"SC",
-    "hashrate":"164.315",
+    "hashrate":"131.955",
     "hashrate_unit":"MH",
-    "hashrate_dual":"1314.536",
+    "hashrate_dual":"1319.567",
     "hashrate_dual_unit":"MH",
-    "accepted_share":"4559",
-    "accepted_dual_share":"517",
-    "rejected_share":"1",
+    "accepted_share":"4968",
+    "accepted_dual_share":"1285",
+    "rejected_share":"2",
     "rejected_dual_share":"0",
-    "pool":" exp-eu.dwarfpool.com:8018",
-    "pool_dual":"sia-eu1.nanopool.org:7777,
-    "gpu_count":"6",
-    "gpu1":"58",
-    "gpu2":"67",
-    "gpu3":"61",
-    "gpu4":"65",
-    "gpu5":"59",
-    "gpu6":"66",
-    "gpu7":"",
-    "gpu8":"",
-    "fan1":"72",
-    "fan2":"72",
-    "fan3":"72",
-    "fan4":"71",
-    "fan5":"70",
-    "fan6":"71",
-    "fan7":"",
-    "fan8":"",
-    "revenue_day":"31.58",
-    "revenue_week":221.06,
-    "revenue_month":947.4,
-    "revenue_btc_day":"0.012746",
-    "revenue_btc_week":"0.089224",
-    "revenue_btc_month":"0.382388"
+    "pool":" eu1.ethermine.org:4444",
+    "pool_dual":"sia-eu1.nanopool.org:7777",
+    "revenue":{  
+      "revenue_usd_day":"9.6304",
+      "revenue_usd_week":67.4128,
+      "revenue_usd_month":288.912,
+      "revenue_btc_day":"0.004218",
+      "revenue_btc_week":"0.029527",
+      "revenue_btc_month":"0.126545"
+    },
+    "gpuinfo":{  
+      "gpu_count":"6",
+      "gpu1":"60",
+      "gpu2":"67",
+      "gpu3":"68",
+      "gpu4":"68",
+      "gpu5":"64",
+      "gpu6":"51",
+      "gpu7":"",
+      "gpu8":"",
+      "fan1":"91",
+      "fan2":"91",
+      "fan3":"91",
+      "fan4":"91",
+      "fan5":"91",
+      "fan6":"91",
+      "fan7":"",
+      "fan8":""
+    }
   },
- ...........
+    "global":{  
+    "total_gpu":"25",
+    "total_worker":"4",
+    "total_online_worker":"4"
+  }
+}
 ]
 </pre>
 
