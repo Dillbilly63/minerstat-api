@@ -79,7 +79,7 @@ Response:
 }
 </pre>
 
-Current API Rules: 2 request / 1 IP / 1 sec
+Current API Rules: 6 request's / 1 IP / 1 minute
 
 Idea & Request & Bug Report: api@minerstat.com
 
