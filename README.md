@@ -75,7 +75,8 @@ Response:
     "total_gpu":"25",
     "total_worker":"4",
     "total_online_worker":"4"
-  }
+  },
+  "list":["B1_1060","B2_1060","rig1","Rig2_1060"]
 }
 </pre>
 
