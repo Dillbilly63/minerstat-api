@@ -32,7 +32,6 @@ $total_gpu=$data['global']['total_gpu'];
 </head>
 <body>
 
-
 <table style="position: fixed; margin-left: 15%; margin-top: 15%; width: 70%;"  class="pure-table">
 <tbody>
 
@@ -75,3 +74,5 @@ $x ++;
 
 </tbody>
 </table>
+</body>
+</html>
