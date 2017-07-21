@@ -63,7 +63,7 @@ $worker=strtoupper($data["list"][$x]);
 <td><?php echo $data[$worker]['general']['uptime'];  ?></td>
 <td><?php echo $data[$worker]['general']['status'];  ?></td>
 <td><?php echo $data[$worker]['hashrate']['hashrate'];  ?> <?php echo $data[$worker]['hashrate']['hashrate_unit'];  ?></td>
-<td><?php echo $data[$worker]['shares']['accepted_share'];  ?> / <?php echo $data[$worker]['shares']['accepted_share'];  ?></td>
+<td><?php echo $data[$worker]['shares']['accepted_share'];  ?> / <?php echo $data[$worker]['shares']['rejected_share'];  ?></td>
 <td><?php echo $data[$worker]['general']['pool'];  ?></td>
 </tr>
 
